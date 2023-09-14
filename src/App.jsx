@@ -1,3 +1,4 @@
+import MainHeader from "./Components/MainHeader"
 import TitleHeader from "./Components/TitleHeader"
 
 function App() {
@@ -5,6 +6,9 @@ function App() {
   return (
     <div>
       <TitleHeader/>
+      <div>
+        <MainHeader/>
+      </div>
     </div>
   )
 }
