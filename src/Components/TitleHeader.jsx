@@ -4,7 +4,7 @@ import { CiLocationOn } from "react-icons/ci";
 
 const TitleHeader = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black text-white">
       <div className="w-4/5 mx-auto grid grid-cols-2 justify-between items-center text-sm py-2 font-Inter">
         <div className="flex justify-start items-center gap-3">
           <h1 className="text-primary tracking-tighter">Opening Hour:</h1>
