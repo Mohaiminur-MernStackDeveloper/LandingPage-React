@@ -1,3 +1,4 @@
+import AboutResto from "./Components/AboutResto"
 import MainHeader from "./Components/MainHeader"
 import Slider from "./Components/Slider"
 import SubSlider from "./Components/SubSlider"
@@ -13,6 +14,7 @@ function App() {
       </div>
       <Slider/>
       <SubSlider/>
+      <AboutResto/>
     </div>
   )
 }
