@@ -1,5 +1,6 @@
 import AboutResto from "./Components/AboutResto"
 import MainHeader from "./Components/MainHeader"
+import NewItems from "./Components/NewItems"
 import Slider from "./Components/Slider"
 import SubSlider from "./Components/SubSlider"
 import TitleHeader from "./Components/TitleHeader"
@@ -15,6 +16,7 @@ function App() {
       <Slider/>
       <SubSlider/>
       <AboutResto/>
+      <NewItems/>
     </div>
   )
 }
