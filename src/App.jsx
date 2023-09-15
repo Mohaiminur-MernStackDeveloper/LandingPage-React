@@ -4,6 +4,7 @@ import MainHeader from "./Components/MainHeader"
 import MenuList from "./Components/MenuList"
 import NewItems from "./Components/NewItems"
 import OnlineReserve from "./Components/OnlineReserve"
+import OurBlog from "./Components/OurBlog"
 import OurExperties from "./Components/OurExperties"
 import Slider from "./Components/Slider"
 import SubSlider from "./Components/SubSlider"
@@ -25,6 +26,7 @@ function App() {
       <GalleryStore/>
       <OurExperties/>
       <OnlineReserve/>
+      <OurBlog/>
     </div>
   )
 }
