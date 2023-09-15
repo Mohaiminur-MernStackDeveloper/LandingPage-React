@@ -1,4 +1,5 @@
 import AboutResto from "./Components/AboutResto"
+import GalleryStore from "./Components/GalleryStore"
 import MainHeader from "./Components/MainHeader"
 import MenuList from "./Components/MenuList"
 import NewItems from "./Components/NewItems"
@@ -19,6 +20,7 @@ function App() {
       <AboutResto/>
       <NewItems/>
       <MenuList/>
+      <GalleryStore/>
     </div>
   )
 }
