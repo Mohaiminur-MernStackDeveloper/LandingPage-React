@@ -14,6 +14,7 @@ const Slider = () => {
     <div className="w-full min-h-[500px] h-fit flex justify-center items-center flex-wrap bg-black text-white">
       <Swiper
         spaceBetween={30}
+        loop={true}
          autoplay={{
              delay: 2500,
          }}

@@ -1,5 +1,6 @@
 import MainHeader from "./Components/MainHeader"
 import Slider from "./Components/Slider"
+import SubSlider from "./Components/SubSlider"
 import TitleHeader from "./Components/TitleHeader"
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <MainHeader/>
       </div>
       <Slider/>
+      <SubSlider/>
     </div>
   )
 }
