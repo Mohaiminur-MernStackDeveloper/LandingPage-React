@@ -46,7 +46,6 @@ const OurExperties = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     );
