@@ -1,4 +1,5 @@
 import AboutResto from "./Components/AboutResto"
+import Footer from "./Components/Footer"
 import GalleryStore from "./Components/GalleryStore"
 import MainHeader from "./Components/MainHeader"
 import MenuList from "./Components/MenuList"
@@ -27,6 +28,7 @@ function App() {
       <OurExperties/>
       <OnlineReserve/>
       <OurBlog/>
+      <Footer/>
     </div>
   )
 }
