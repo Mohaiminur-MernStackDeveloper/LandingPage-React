@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -6,11 +6,23 @@ import "swiper/css/navigation";
 import { Autoplay } from "swiper/modules";
 
 const SubSlider = () => {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const handleResize = () => {
+    setScreenWidth(window.innerWidth);
+  };
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+
   return (
     <div>
       <Swiper
         spaceBetween={30}
-        slidesPerView={3}
+        slidesPerView={screenWidth > 700 ? 3 : 1}
         loop={true}
         centeredSlides={true}
         autoplay={{

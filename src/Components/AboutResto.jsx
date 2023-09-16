@@ -4,11 +4,11 @@ import { MdOutlineFastfood, MdOutlineNoFood } from "react-icons/md";
 
 const AboutResto = () => {
   return (
-    <div className="w-11/12 mx-auto grid grid-cols-2 justify-center items-center py-20">
+    <div className="w-11/12 mx-auto grid md:grid-cols-2 grid-cols-1 gap-24 md:gap-5 justify-center items-center py-20">
       <div className="w-full flex justify-center items-center transform -rotate-45">
         <div className="w-fit grid grid-cols-2 justify-center items-center gap-2">
-          <div className="bg-[url('https://images.pexels.com/photos/139751/pexels-photo-139751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] w-44 h-44 rounded-md bg-cover bg-no-repeat ml-auto mt-auto"></div>
-          <div className="w-48 h-48 border-primary border-dashed rounded-md bg-cover bg-no-repeat mt-auto border flex justify-center items-center">
+          <div className="bg-[url('https://images.pexels.com/photos/139751/pexels-photo-139751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] md:w-44 md:h-44 w-24 h-24 rounded-md bg-cover bg-no-repeat ml-auto mt-auto"></div>
+          <div className="md:w-48 md:h-48 border-primary border-dashed rounded-md bg-cover bg-no-repeat mt-auto border flex justify-center items-center">
             <div className="flex justify-center text-2xl space-y-3 items-center flex-col rotate-45">
               <BsMeta className="text-primary" />
               <h1 className="font-Inter">
@@ -18,8 +18,8 @@ const AboutResto = () => {
               <BsMeta className="text-primary" />
             </div>
           </div>
-          <div className="bg-[url('https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] w-44 h-44 rounded-md bg-cover bg-no-repeat ml-auto"></div>
-          <div className="bg-[url('https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] w-44 h-44 rounded-md bg-cover bg-no-repeat mb-auto"></div>
+          <div className="bg-[url('https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] md:w-44 md:h-44 w-24 h-24 rounded-md bg-cover bg-no-repeat ml-auto"></div>
+          <div className="bg-[url('https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] md:w-44 md:h-44 w-24 h-24 rounded-md bg-cover bg-no-repeat mb-auto"></div>
         </div>
       </div>
       <div className="md:space-y-10 space-y-5">

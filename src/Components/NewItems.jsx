@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { BsMeta } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -7,6 +7,17 @@ import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
 
 const NewItems = () => {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const handleResize = () => {
+    setScreenWidth(window.innerWidth);
+  };
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <div className='w-full bg-[url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-food-seasoning-food-banner-image_169169.jpg")] bg-no-repeat bg-gray-600 bg-blend-multiply text-white bg-cover'>
       <div>
@@ -24,7 +35,7 @@ const NewItems = () => {
         <div>
           <Swiper
             spaceBetween={30}
-            slidesPerView={3}
+            slidesPerView={screenWidth > 700 ? 3 : 1}
             loop={true}
             centeredSlides={true}
             autoplay={{

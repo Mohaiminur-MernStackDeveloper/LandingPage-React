@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
     <div className="bg-[url(https://www.korda-thueringen.de/files/publisher/images/leistungen/hotel/korda-hotel-headbanner.jpg)] min-h-[450px] bg-no-repeat bg-cover bg-gray-500 bg-blend-multiply">
-      <div className="w-11/12 mx-auto h-full grid grid-cols-3 justify-center gap-10 items-center py-10 text-white">
+      <div className="w-11/12 mx-auto h-full grid md:grid-cols-3 justify-center gap-10 items-center py-10 text-white">
         <div>
           <h1 className="text-2xl font-serif mb-5">Our Facilities</h1>
           <div className="flex justify-start text-sm text-gray-300 items-start gap-5">
@@ -62,7 +62,7 @@ const Footer = () => {
           </table>
         </div>
       </div>
-      <div className="border-t w-11/12 mx-auto py-2 font-Inter flex justify-between border-gray-600 text-gray-300 text-sm ">
+      <div className="border-t w-11/12 mx-auto py-2 font-Inter flex-wrap flex justify-between border-gray-600 text-gray-300 text-sm ">
         <h1>@copyright by Egenslab-202, All Right Reserved</h1>
         <span>Privacy & Policy | Terms and Conditions</span>
       </div>

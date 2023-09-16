@@ -5,7 +5,7 @@ const OurBlog = () => {
   return (
     <div className="w-11/12 mx-auto my-10">
       <SectionTitle subtitle="Our Blog" title="Our Latest Blog" />
-      <div className="mt-10 grid grid-cols-3 justify-center items-center gap-5">
+      <div className="mt-10 grid md:grid-cols-3 grid-cols-1 justify-center items-center gap-5">
         <div className="border rounded-md">
             <div className="bg-[url(https://images.hindustantimes.com/img/2022/03/11/1600x900/alex-haney-CAhjZmVk5H4-unsplash_1646991894325_1646991912005.jpg)] w-full h-96 bg-cover rounded-md relative">
                 <div className="inline-block p-5 bg-white rounded-md absolute top-5 right-5 font-Inter text-center font-bold text-primary text-sm hover:bg-primary hover:text-white">17 <br />Apr</div>
